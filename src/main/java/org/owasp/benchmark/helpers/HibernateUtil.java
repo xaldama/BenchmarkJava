@@ -217,7 +217,7 @@ public class HibernateUtil {
                             + " PRIMARY KEY (id)"
                             + ");");
         } catch (Exception e1) {
-            System.out.println("Problem with hibernate init.");
+            System.out.println("Problem with hibernate init. ");
         }
         Transaction tx;
 
