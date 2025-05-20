@@ -74,7 +74,7 @@ public class BenchmarkTest00611 extends HttpServlet {
             c.init(javax.crypto.Cipher.ENCRYPT_MODE, key, paramSpec);
 
             // encrypt and store the results
-            byte[] input = {(byte) '?'};
+            byte[] input;
             Object inputParam = bar;
             if (inputParam instanceof String) input = ((String) inputParam).getBytes();
             if (inputParam instanceof java.io.InputStream) {
