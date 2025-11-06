@@ -1,3 +1,6 @@
 schema-version: v1
 rulesets:
   - go-best-practices
+  - continuous-static-analyzer
+    ignore:
+      - '**/*'
