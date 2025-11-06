@@ -1,6 +1,10 @@
 schema-version: v1
 rulesets:
-  - go-best-practices
-  - continuous-static-analyzer
-    ignore:
-      - "**"
+  - python-code-style:
+    rules:
+      max-function-lines:
+        ignore:
+          - "**/*"
+      max-class-lines:
+        ignore:
+          - "**"
