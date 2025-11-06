@@ -1,6 +1,6 @@
 rulesets:
   - java-best-practices
-    ignore:
+      ignore:
         - "**"
         - "**/**"
   - continuous-static-analyzer
