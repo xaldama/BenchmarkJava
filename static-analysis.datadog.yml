@@ -1,9 +1,1 @@
 rulesets:
-  - java-best-practices
-      ignore:
-        - "**"
-        - "**/**"
-  - continuous-static-analyzer
-      ignore:
-        - "**"
-        - "**/**"
