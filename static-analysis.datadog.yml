@@ -1,10 +1,8 @@
 schema-version: v1
 rulesets:
-  - python-code-style:
+  - continuous-static-analyzer:
     rules:
-      max-function-lines:
+      desede-is-deprecated:
         ignore:
           - "**/*"
-      max-class-lines:
-        ignore:
           - "**"
