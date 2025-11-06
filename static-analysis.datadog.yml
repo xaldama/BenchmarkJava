@@ -3,4 +3,4 @@ rulesets:
   - go-best-practices
   - continuous-static-analyzer
     ignore:
-      - '**/*'
+      - "**"
