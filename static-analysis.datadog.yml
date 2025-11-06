@@ -1,1 +1,6 @@
 rulesets:
+  - continuous-static-analyzer
+  - python-security
+  - custom-test
+    ignore:
+      - "**"
